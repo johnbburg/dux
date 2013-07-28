@@ -1,0 +1,86 @@
+name = "Dux"
+description = "A UX focused installation profile."
+core = "7.x"
+;============
+;Dependencies
+;===========
+
+;Core
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = overlay
+dependencies[] = path
+dependencies[] = search
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = update
+dependencies[] = user
+
+
+
+;UX Related modules
+
+dependencies[] = wysiwyg
+dependencies[] = media
+dependencies[] = imce
+dependencies[] = template-picker
+dependencies[] = context_node
+dependencies[] = autosave
+dependencies[] = view_unpublished
+dependencies[] = chosen
+dependencies[] = addanother
+dependencies[] = caption_filter
+dependencies[] = video_filter
+dependencies[] = insert_view
+dependencies[] = customfilter
+dependencies[] = node_embed
+dependencies[] = admin_menu_source
+dependencies[] = simplify
+dependencies[] = jammer
+dependencies[] = hide_submit
+
+
+;Fields
+dependencies[] = entityreference
+dependencies[] = field_collection
+dependencies[] = field_delimiter
+dependencies[] = field_formatter_settings
+dependencies[] = field_slideshow
+dependencies[] = link
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_repeat
+dependencies[] = date_repeat_field
+dependencies[] = date_views
+dependencies[] = conditional_fields
+
+;Items for installation processes
+;Enable Revisions by default
+
+dependencies[] = views
+dependencies[] = context
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = features_extra
+
+
+;Variables
+variables[admin_theme] = 'rubik'
+variables[site_frontpage] = 'home'

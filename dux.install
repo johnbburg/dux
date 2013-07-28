@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * Implements hook_install
+ */
+function dux_install(){
+//Nothing to do for now.
+//TODO: Add some starter configurations here
+}
+
+
